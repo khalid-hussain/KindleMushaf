@@ -1,0 +1,40 @@
+\documentclass[10pt]{article}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{polyglossia}
+\usepackage{libertine}
+\usepackage[papersize={3.6in,4.8in},hmargin=0.1in, vmargin={0.2in,0.4in}]{geometry}
+\usepackage{fancyhdr}
+%\usepackage[papersize={3.6in,4.8in},hmargin=0.1in,vmargin={0.1in,0.1in}]{geometry}
+
+\setmainlanguage{arabic}
+\newfontfamily\arabicfont[
+  Script=Arabic,%
+  Numbers=Proportional,%
+  Scale=1.5%
+]{Scheherazade}
+
+\setlength{\footskip}{0pt}
+
+\begin{document}
+\pagestyle{fancy}
+
+%%%%%%%%%%%%% Fancy HDR
+\lhead{}\chead{}\rhead{}
+
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+%%%%%%%%%%%%
+
+\begin{center}
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{images/001.png}\newpage
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{images/002.png}\newpage
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{images/003.png}\newpage
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{images/004.png}
+\end{center}
+
+\end{document}
