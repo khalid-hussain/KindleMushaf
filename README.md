@@ -13,3 +13,4 @@ This project aims to create a PDF Mushaf specifically matching the limitations o
   - A file consisting of all the page numbers of the start of a Juz would be needed.
 - Fancy cover.
 - PDF bookmarks for each Surah.
+- Fix margins for Surah names in footer.
